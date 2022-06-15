@@ -5,11 +5,11 @@ This model is a simplification of SOC_LEM (https://zenodo.org/badge/latestdoi/21
 
 ===Folder Structure===
 +++Folders+++
->drivers
+++drivers
    This folder contains the .py files that drive the code for each county simulation. The "driver_template.py" file is a template for each county driver. The   "make_drivers.py" file will make driver files for each county that has a DEM (digital elevation model) .tif file. 
->utilities
+++utilities
    This folder contains a module that calculates model statistics each time step.
--county_list.txt - this file contains the FIPs codes for each county that you want the model to simulate soil and SOC redistribution. Needs moficiation to reflect counties that you want to simulate.
--run_non_parallel.sh and run_parallel.sh - The code can be run on a single processor or in parallel. Example script files have been provided (.sh files). Needs modication to run the counties listed in county_list.txt
--SOC_LEM_County.py - main code, does not require modification to run.
++county_list.txt - this file contains the FIPs codes for each county that you want the model to simulate soil and SOC redistribution. Needs moficiation to reflect counties that you want to simulate.
++run_non_parallel.sh and run_parallel.sh - The code can be run on a single processor or in parallel. Example script files have been provided (.sh files). Needs modication to run the counties listed in county_list.txt
++SOC_LEM_County.py - main code, does not require modification to run.
 
