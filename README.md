@@ -13,6 +13,8 @@ This model is a simplification of SOC_LEM (https://zenodo.org/badge/latestdoi/21
 ++utilities
    This folder contains a module that calculates model statistics each time step.
 
++++FIles+++
+
 +county_list.txt - this file contains the FIPs codes for each county that you want the model to simulate soil and SOC redistribution. Needs moficiation to reflect counties that you want to simulate.
 
 +run_non_parallel.sh and run_parallel.sh - The code can be run on a single processor or in parallel. Example script files have been provided (.sh files). Needs modication to run the counties listed in county_list.txt
